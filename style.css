@@ -332,3 +332,24 @@ border: 1 solid black !important;
     right:29vh;
     margin-top:45vh ;
 }
+
+
+.h1_Punsim{ 
+    position: absolute;
+    margin-left:49vh;
+    margin-top:65vh ;
+    border: 2px solid #0c51a0;
+    border-radius: 3vh;
+    padding: 1px 2px;
+
+}
+.h2_Punsimi{
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 74vh;
+}
+.h3_linku{
+    position: absolute;
+    margin-left: 5vh;
+    margin-top: 2vh;
+}
