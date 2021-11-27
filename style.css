@@ -294,3 +294,41 @@ border: 1 solid black !important;
     border-radius: 3vh;
     padding: 5px 10px;
 }
+#Drejtimi_z{
+    width: 40vh;
+    height:5vh;
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 45vh;
+
+
+
+}
+#Lenda_z{
+    width: 40vh;
+    height: 5vh;
+    position: absolute;
+    margin-left:49vh;
+    margin-top:55vh ;
+}
+.kerko{
+    position: absolute;
+    margin-left:49vh;
+    margin-top:65vh ;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 1vh 3vh;
+    border-radius: 3vh;
+    font-weight: 700;
+    cursor: pointer;
+}
+.lib-head{
+    position: absolute;
+    margin-left:49vh;
+    margin-top:35vh ;
+}
+.lib-photo{
+    position: absolute;
+    right:29vh;
+    margin-top:45vh ;
+}
