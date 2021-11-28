@@ -363,3 +363,10 @@ border: 1 solid black !important;
     z-index: 1;
     margin-left: -79.5px;
 }
+.about img{
+    position: absolute;
+    height: 250px;
+    width: 350px;
+    margin-top: 99.9px;
+    margin-left:600.5px;
+}
