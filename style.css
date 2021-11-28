@@ -353,3 +353,11 @@ border: 1 solid black !important;
     margin-left: 5vh;
     margin-top: 2vh;
 }
+.punsim img{
+    position: absolute;
+    height: 325.5px;
+    width: 1000px;
+    margin-top: -562.5px;
+    z-index: 1;
+    margin-left: -79.5px;
+}
