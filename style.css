@@ -364,6 +364,7 @@ border: 1 solid black !important;
     margin-left: -79.5px;
 }
 .about img{
+    border-radius: 3vh;
     position: absolute;
     height: 250px;
     width: 350px;
