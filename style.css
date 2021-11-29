@@ -20,7 +20,7 @@ html{
 }
 
 .menu{
-    z-index: 2;
+    z-index: 3;
     position: fixed;
     height:100%;
     width:175px;
@@ -73,6 +73,7 @@ html{
     margin-left:1vh;
 }
 .background{
+    z-index: 2;
     position: fixed;
     width:100%;
     height: 13vh;
@@ -332,6 +333,7 @@ border: 1 solid black !important;
     right:29vh;
     margin-top:45vh ;
 }
+
 .h1_rrethfaqes {
     position: absolute;
     margin-left: 49hv;
@@ -351,3 +353,43 @@ border: 1 solid black !important;
     margin-left: 49vh;
     margin-top: 74vh;
 }
+
+
+
+.h1_Punsim{ 
+    position: absolute;
+    margin-left:49vh;
+    margin-top:65vh ;
+    border: 2px solid #0c51a0;
+    border-radius: 3vh;
+    padding: 1px 2px;
+
+}
+.h2_Punsimi{
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 74vh;
+}
+.h3_linku{
+    position: absolute;
+    margin-left: 5vh;
+    margin-top: 2vh;
+}
+.punsim img{
+    z-index: 1;
+    position: absolute;
+    height: 325.5px;
+    width: 1000px;
+    margin-top: -562.5px;
+    z-index: 1;
+    margin-left: -79.5px;
+}
+.about img{
+    border-radius: 3vh;
+    position: absolute;
+    height: 250px;
+    width: 350px;
+    margin-top: 99.9px;
+    margin-left:600.5px;
+}
+
