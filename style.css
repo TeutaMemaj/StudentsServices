@@ -334,6 +334,27 @@ border: 1 solid black !important;
     margin-top:45vh ;
 }
 
+.h1_rrethfaqes {
+    position: absolute;
+    margin-left: 49hv;
+    margin-top:80vh ;
+    padding: 5px 10px;
+
+}
+.h1_rrethfaqes {
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 65vh;
+    padding: 1px 2px;
+
+}
+.h2_rrethfaqes {
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 74vh;
+}
+
+
 
 .h1_Punsim{ 
     position: absolute;
@@ -371,3 +392,4 @@ border: 1 solid black !important;
     margin-top: 99.9px;
     margin-left:600.5px;
 }
+
