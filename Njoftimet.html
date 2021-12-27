@@ -24,7 +24,7 @@
 </header>
 <body>
     <div class="background">
-        <h1>Students Services</h1>
+        <h1 id="__ss" onclick="myFunction()">Students Services</h1>
         <div class="Qasja">
            <a href="Qasja.html">Qasja</a>
         </div>
@@ -88,5 +88,13 @@
        <h4>Të nderuar student ju njoftojmë se të hënën është pushim për nderë të festës së 28 Nëntorit.Urime!</h4>
    </div>
           </div>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          
+    <script src="app.js"></script>
+    <script>
+        function myFunction() {
+  document.getElementById("__ss").innerHTML = "Njoftimet";
+}
+    </script>
 </body>
 </html>
