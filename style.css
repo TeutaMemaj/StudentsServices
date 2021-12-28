@@ -401,4 +401,167 @@ border: 1 solid black !important;
     margin-top: 99.9px;
     margin-left:600.5px;
 }
+.lenda_1{
+
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 65vh;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 1vh 3vh;
+    border-radius: 3vh;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+.lenda_2{
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 65vh;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 1vh 3vh;
+    border-radius: 3vh;
+    font-weight: 700;
+    cursor: pointer;
+    display: none;
+   
+}
+.lenda_3{
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 65vh;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 1vh 3vh;
+    border-radius: 3vh;
+    font-weight: 700;
+    cursor: pointer;
+    display: none;
+}
+.lenda_4{
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 65vh;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 1vh 3vh;
+    border-radius: 3vh;
+    font-weight: 700;
+    cursor: pointer;
+    display: none;
+}
+.lenda_5{
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 65vh;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 1vh 3vh;
+    border-radius: 3vh;
+    font-weight: 700;
+    cursor: pointer;
+    display: none;
+}
+.lenda_5{
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 65vh;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 1vh 3vh;
+    border-radius: 3vh;
+    font-weight: 700;
+    cursor: pointer;
+    display: none;
+}
+.lenda_6{
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 65vh;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 1vh 3vh;
+    border-radius: 3vh;
+    font-weight: 700;
+    cursor: pointer;
+    display: none;
+}
+.lenda_7{
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 65vh;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 1vh 3vh;
+    border-radius: 3vh;
+    font-weight: 700;
+    cursor: pointer;
+    display: none;
+}
+.lenda_8{
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 65vh;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 1vh 3vh;
+    border-radius: 3vh;
+    font-weight: 700;
+    cursor: pointer;
+    display: none;
+}
+.lenda_9{
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 65vh;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 1vh 3vh;
+    border-radius: 3vh;
+    font-weight: 700;
+    cursor: pointer;
+    display: none;
+}
+.lenda-on{
+    display: block!important;
+}
+.lenda_1 a{
+    color: black;
+    text-decoration: none;
+}
+.lenda_2 a{
+    color: black;
+    text-decoration: none;
+}
+.lenda_3 a{
+    color: black;
+    text-decoration: none;
+}
+.lenda_4 a{
+    color: black;
+    text-decoration: none;
+}
+.lenda_5 a{
+    color: black;
+    text-decoration: none;
+}
+.lenda_6 a{
+    color: black;
+    text-decoration: none;
+}
+.lenda_7 a{
+    color: black;
+    text-decoration: none;
+}
+.lenda_8 a{
+    color: black;
+    text-decoration: none;
+    
+}
+.lenda_9 a{
+    color: black;
+    text-decoration: none;
+}
 

@@ -27,6 +27,7 @@
         <img src="books.svg" alt="">
     </div>
 <h3 class="lib-head">Këtu mund të gjeni shumicën e literaturës e cila do t'ju shërbej shumeë gjatë studimeve tuaja.</h3>
+
 <select name="Drejtimi" id="Drejtimi_z">
     <option value="">Drejtimi</option>
     <option value="Inxhinieri komjuterike">Inxhineri komjuterike</option>
@@ -35,26 +36,133 @@
 </select>
 <select name="Lenda" id="Lenda_z">
     <option value="">Lenda</option>
-    <option value="mekanike">Matematik I</option>
-    <option value="baza">Bazat e elktronikes</option>
-    <option value="fizik">Fizik I</option>
-    <option value="qrqe d">Qarqe digjitale</option>
-    <option value="qarqe e">Qarqe elektrike</option>
-    <option value="C++">C++</option>
-    <option value="Algoritme">Algoritme</option>
-    <option value="Mat2">Matematik 2</option>
-    <option value="fizik 2">Fizik 2</option>
+    <option class="Lenda_z1" value="mekanike">Matematik I</option>
+    <option class="Lenda_z2"value="baza">Bazat e elktronikes</option>
+    <option class="Lenda_z3" value="fizik">Fizik I</option>
+    <option class="Lenda_z4" value="qrqe d">Qarqe digjitale</option>
+    <option class="Lenda_z5" value="qarqe e">Qarqe elektrike</option>
+    <option class="Lenda_z6" value="C++">C++</option>
+    <option class="Lenda_z7" value="Algoritme">Algoritme</option>
+    <option class="Lenda_z8" value="Mat2">Matematik 2</option>
+    <option class="Lenda_z9" value="fizik 2">Fizik 2</option>
 
 </select>
-<input class="kerko" value="Kerko" onclick="Drejtimi()" type="Submit">
+<!-- <input class="kerko" value="Lenda" type="Submit"> -->
+
 <img class="lib-photo" src="libraria.svg" alt="">
 
+ <div class="lenda_1">
+     <a href="blank.pdf" download>Matematik 1</a>
+ </div>
+ <div class="lenda_2">
+     <a href="blank.pdf" download>Bazat e elktronikes</a>
+ </div>
+ <div class="lenda_3">
+     <a href="blank.pdf" download>Fizik I</a>
+ </div>
+ <div class=lenda_4>
+     <a href="blank.pdf" download>Qarqe digjitale</a>
+ </div>
+ <div class="lenda_5">
+     <a href="blank.pdf" download>Qarqe elektrike</a>
+ </div>
+ <div class="lenda_6">
+     <a href="blank.pdf" download>C++</a>
+ </div>
+ <div class="lenda_7">
+     <a href="blank.pdf" download>Algoritme</a>
+ </div>
+ <div class="lenda_8">
+     <a href="blank.pdf" download>Matematik 2</a>
+ </div>
+ <div class="lenda_9">
+     <a href="blank.pdf" download>Fizik 2</a>
+ </div>
  
 </body>
 <script>
-    function Drejtimi(){
-        document.querySelector('.kerko').innerHTML=("Shkarko literaturen");
+    var lenda_1 = document.querySelector(".lenda_1");
+    var lenda_2 = document.querySelector(".lenda_2");
+    var lenda_3 = document.querySelector(".lenda_3");
+    var lenda_4 = document.querySelector(".lenda_4");
+    var lenda_5 = document.querySelector(".lenda_5");
+    var lenda_6 = document.querySelector(".lenda_6");
+    var lenda_7 = document.querySelector(".lenda_7");
+    var lenda_8 = document.querySelector(".lenda_8");
+    var lenda_9 = document.querySelector(".lenda_9");
+
+
+    var lenda_z = document.querySelector("#Lenda_z");
+
+lenda_z.addEventListener("click",function(){
+    if(lenda_z.value == "mekanike"){
+        lenda_1.classList.add("lenda-on");
+    }else{
+        if(lenda_1.classList.contains("lenda-on")){
+            lenda_1.classList.remove("lenda-on");
+        }
     }
-    
-    </script>
+    if(lenda_z.value == "baza"){
+        lenda_2.classList.add("lenda-on");
+    }else{
+        if(lenda_2.classList.contains("lenda-on")){
+            lenda_2.classList.remove("lenda-on");
+        }
+    }
+    if(lenda_z.value == "fizik"){
+        lenda_3.classList.add("lenda-on");
+    }else{
+        if(lenda_3.classList.contains("lenda-on")){
+            lenda_3.classList.remove("lenda-on");
+        }
+    }
+    if(lenda_z.value == "qrqe d"){
+        lenda_4.classList.add("lenda-on");
+    }else{
+        if(lenda_4.classList.contains("lenda-on")){
+            lenda_4.classList.remove("lenda-on");
+        }
+    }
+    if(lenda_z.value == "qarqe e"){
+        lenda_5.classList.add("lenda-on");
+    }else{
+        if(lenda_5.classList.contains("lenda-on")){
+            lenda_5.classList.remove("lenda-on");
+        }
+    }
+    if(lenda_z.value == "C++"){
+        lenda_6.classList.add("lenda-on");
+    }else{
+        if(lenda_6.classList.contains("lenda-on")){
+            lenda_6.classList.remove("lenda-on");
+        }
+    }
+    if(lenda_z.value == "Algoritme"){
+        lenda_7.classList.add("lenda-on");
+    }else{
+        if(lenda_7.classList.contains("lenda-on")){
+            lenda_7.classList.remove("lenda-on");
+        }
+    }
+    if(lenda_z.value == "Mat2"){
+        lenda_8.classList.add("lenda-on");
+    }else{
+        if(lenda_8.classList.contains("lenda-on")){
+            lenda_8.classList.remove("lenda-on");
+        }
+    }
+    if(lenda_z.value == "fizik 2"){
+        lenda_9.classList.add("lenda-on");
+    }else{
+        if(lenda_9.classList.contains("lenda-on")){
+            lenda_9.classList.remove("lenda-on");
+        }
+    }
+
+});
+   
+
+
+
+</script>
 </html>
