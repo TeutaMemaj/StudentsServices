@@ -369,29 +369,42 @@ border: 1 solid black !important;
     position: absolute;
     margin-left:49vh;
     margin-top:65vh ;
-    border: 2px solid #0c51a0;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 1vh 3vh;
     border-radius: 3vh;
-    padding: 1px 2px;
+    font-weight: 700;
+    cursor: pointer;
 
 }
 .h2_Punsimi{
     position: absolute;
     margin-left: 49vh;
-    margin-top: 74vh;
+    margin-top: 80vh;
 }
 .h3_linku{
     position: absolute;
-    margin-left: 5vh;
-    margin-top: 2vh;
+    margin-left: 1vh;
+    margin-top: 5vh;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 1vh 3vh;
+    border-radius: 3vh;
+    font-weight: 700;
+    cursor: pointer;
+}
+.h3_linku a{
+    text-decoration: none;
+    color: black;
 }
 .punsim img{
     z-index: 1;
     position: absolute;
     height: 325.5px;
-    width: 1000px;
+    width: 1500px;
     margin-top: -562.5px;
     z-index: 1;
-    margin-left: -79.5px;
+    margin-left: -150.5px;
 }
 .about img{
     border-radius: 3vh;
@@ -563,4 +576,10 @@ border: 1 solid black !important;
 .lenda_9 a{
     color: black;
     text-decoration: none;
+}
+.video_z{
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 110vh;
+    border: solid black;
 }
