@@ -206,7 +206,7 @@ html{
     100px;
 
 }
-.zef-p a{
+.zj{
     margin-left: 10vw;
     margin-top: 3vh;
     font-size: 4vh;
@@ -237,7 +237,7 @@ html{
     padding: 5px 10px;
     position: absolute;
     margin-left: 49vh;
-    margin-top: 35vh;
+    margin-top: 32vh;
 }
 .table1{
 width: 50vh;
@@ -582,4 +582,35 @@ border: 1 solid black !important;
     margin-left: 49vh;
     margin-top: 110vh;
     border: solid black;
+}
+
+.HSH{
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 42vh;
+    border: 2px solid #0f4d92;
+    border-radius: 3vh;
+    padding: 5px 10px;
+}
+#hide{
+    background:none;
+    border: none;
+    
+}
+#show{
+    background: none;
+    border: none;
+}
+.fade{
+    position: absolute;
+    margin-left: 49vh;
+    margin-top: 20vh;
+    background-color: #0f4d92;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }

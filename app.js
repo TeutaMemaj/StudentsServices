@@ -10,4 +10,56 @@ title.addEventListener("click", function(){
 let njerzt = ["ylli","dijari","teuta","rinesa"];
 console.log("kush jane pjesmarres:",njerzt[0],njerzt[2],njerzt[3]);
 
-$(.submit)
+$(".zj").click(function(){
+alert("Vazhdo");
+});
+
+$("#hide").click(function(){
+    $(".table1").hide();
+    $(".table2").hide();
+  });
+
+
+  $("#show").click(function(){
+    $(".table1").show();
+    $(".table2").show();
+  });
+
+
+  $(".fade").click(function(){
+    $(".about").fadeIn("slow");
+    $(".h1_rrethfaqers").fadeIn("slow");
+    $(".h2_rrethfaqes").fadeIn("slow");
+  });
+
+  $(".h3_linku").hover(function(){
+    $(".video_z").slideDown();
+  });
+
+    $(".h1_Punsim").hover(function(){
+      $(".h1_Punsim").animate({left: '250px'});
+    });
+
+    $(".h1_njoftimet").hover(function(){
+      $(".h1_njoftimet").animate({left: '100px'});
+    });
+
+    $(".h4_njoftimet").hover(function(){
+      $(".h4_njoftimet").animate({left: '100px'});
+    });
+
+    $(".h4_njoftimet2").hover(function(){
+      $(".h4_njoftimet2").animate({left: '100px'});
+    });
+
+    $(".h4_njoftimet3").hover(function(){
+      $(".h4_njoftimet3").animate({left: '100px'});
+    });
+    
+    $(".HSH").hover(function(){
+      $(".HSH").animate({left: '100px'});
+    });
+
+
+  
+
