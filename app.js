@@ -10,3 +10,4 @@ title.addEventListener("click", function(){
 let njerzt = ["ylli","dijari","teuta","rinesa"];
 console.log("kush jane pjesmarres:",njerzt[0],njerzt[2],njerzt[3]);
 
+$(.submit)
