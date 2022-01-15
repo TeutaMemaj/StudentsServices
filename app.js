@@ -63,3 +63,10 @@ $("#hide").click(function(){
 
   
 
+  
+      $("#Lenda_z").hover(function(){
+        $("#Lenda_z").append("<b>Selecto lenden</b>");
+      });
+
+
+      
